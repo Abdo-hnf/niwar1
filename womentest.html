@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Navbar fade-in */
+.navbar {
+  opacity: 0;
+  animation: fadeIn 1s forwards 0.5s; /* Delay for the navbar */
+}
+
+/* Photos Section fade-in */
+.photos-section {
+  opacity: 0;
+  animation: fadeIn 1s forwards 1s; /* Delay for the photos section */
+}
+
+/* Collection Section fade-in */
+.collection {
+  opacity: 0;
+  animation: fadeIn 1s forwards 1.5s; /* Delay for the collection section */
+}
+
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Sosity Shop</div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Services</a>
+          <div class="dropdown">
+            <a href="#" class="dropdown-btn">Categories</a>
+            <div class="dropdown-content">
+              <a href="#">Women</a>
+              <a href="#">Men</a>
+              <a href="#">Sale</a>
+            </div>
+          </div>
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+</body>
+</html>
